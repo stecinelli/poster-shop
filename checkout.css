@@ -46,9 +46,6 @@ main {
 }
 
 .card {
-  flex-basis: 22%;
-  padding: 3%;
-
   display: flex;
   flex-direction: column;
 
@@ -56,10 +53,6 @@ main {
     width: 100%;
   }
   & h3 {
-    padding: 5px 0;
-  }
-  & p {
-    font-size: xx-small;
     padding: 5px 0;
   }
   & button {
@@ -87,9 +80,6 @@ main {
   color: black;
 
   & h3 {
-    padding: 10px;
-  }
-  & p {
     padding: 10px;
   }
   & button {
