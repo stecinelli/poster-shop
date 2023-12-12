@@ -36,18 +36,9 @@ main {
   padding: 30px;
 
   display: flex;
-  flex-direction: column;
   background-color: black;
 
   color: white;
-}
-
-.container_card {
-  width: 100%;
-
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 
 .card {
