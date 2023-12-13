@@ -108,8 +108,29 @@ main {
 
 table {
   width: 79%;
-  border: solid white 2px;
   margin: 20px;
+  text-align: left;
+  border-collapse: collapse;
+  font-weight: 100;
+}
+
+.table_end {
+  width: 15%;
+  text-align: center;
+}
+
+th {
+  background-color: rgba(221, 60, 87, 0.5);
+  font-weight: 100;
+  font-size: small;
+}
+
+td {
+  height: 35px;
+}
+
+.table_total {
+  border-top: solid white 1px;
 }
 
 footer {
